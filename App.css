@@ -1,0 +1,25 @@
+/* src/App.css */
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, blue ,green );
+  background-size: cover;
+  background-position: center;
+  width: 160%;
+  height: 100%;
+
+}
+
+h1 {
+  color: red;
+  text-decoration: underline;
+}

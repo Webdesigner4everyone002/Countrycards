@@ -1,0 +1,40 @@
+/* src/components/CountryCard.css */
+.country-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  background-color: #fff;
+  position:static;
+  height: 519px;
+  width: 622px;
+  box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(255, 202, 8, 0.6);
+}
+
+.country-name {
+  margin-top: 0;
+  color: #333;
+}
+
+.info-section {
+  margin-bottom: 16px;
+}
+
+.info-section h3 {
+  margin-top: 0;
+  color: #555;
+}
+
+.info-section p {
+  margin: 4px 0;
+  color: #666;
+}
+
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
